@@ -1,5 +1,8 @@
 # HABS Neuro-AI Hackathon
 
+The team's causal arousal pipeline is documented in [docs/AROUSAL.md](docs/AROUSAL.md).
+Run `python -m arousal audit --data sample --out out/audit` to check available data.
+
 **Build advanced AI models on real EEG data and contribute to the next generation of neurotechnology.**
 
 Université Paris-Saclay · 2–30 November 2026 · [hackathon.habs.ai](https://hackathon.habs.ai/)

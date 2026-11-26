@@ -11,3 +11,13 @@ pyedflib==0.1.42
 numpy==2.4.6
 pandas==3.0.1
 scipy==1.17.1
+scikit-learn==1.9.1
+braindecode==1.3.0
+lightgbm==4.6.0
+matplotlib==3.10.8
+# macOS wheels >=2.11 conflict with LightGBM's OpenMP runtime (pytorch #191933).
+# Leave the Linux worker's CUDA builds unchanged.
+torch==2.10.0; sys_platform == "darwin"
+torchaudio==2.10.0; sys_platform == "darwin"
+pylsl==1.19.0
+joblib==1.6.0
